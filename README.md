@@ -1,6 +1,9 @@
 # management
 
 本项目为图书管理系统的面试笔试项目，开发框架为基础ssh框架
+开发工具为eclipse，环境java8，tomcat9.0，mysql5.7
+
+
 可于src/main/resources目录下的log4j.properties文件修改日志输出路径
 
 项目使用角色进行权限控制，通过添加@AuthMethod以及@AuthClass进行权限控制
