@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java/controller/UserController.java=UTF-8
+encoding//src/main/java/dao/BaseDao.java=UTF-8
+encoding//src/main/java/dao/BaseDaoImpl.java=UTF-8
+encoding//src/main/java/dao/RoleDao.java=UTF-8
+encoding//src/main/java/dao/UserDao.java=UTF-8
+encoding//src/main/java/model/Pager.java=UTF-8
+encoding//src/main/java/service/BaseService.java=UTF-8
+encoding//src/main/java/service/UserService.java=UTF-8
+encoding//src/main/java/web/AuthInceptor.java=UTF-8
+encoding//src/main/java/web/InitWebServlet.java=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/login.jsp=UTF-8

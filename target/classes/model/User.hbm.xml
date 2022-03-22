@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="cn.interview.management.model.User" table="sb_users">
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="native" />
+		</id>
+		<property name="username" type="java.lang.String">
+			<column name="username"></column>
+		</property>
+		<property name="password" type="java.lang.String">
+			<column name="password"></column>
+		</property>
+		<property name="state" type="java.lang.Integer">
+			<column name="state"></column>
+		</property>
+		<set name="roles" table="sb_user_role" lazy="false">
+			<key>
+				<column name="user_id"/>
+			</key>
+			<many-to-many class="cn.interview.management.model.Role" column="role"></many-to-many>
+		</set>
+	</class>
+</hibernate-mapping>
